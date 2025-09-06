@@ -12,19 +12,30 @@ An autonomous AI research assistant that leverages LLaMA (via Groq) to perform i
 * Error Handling – Skips empty chunks, retries API calls, and ensures robust execution
 
 ## Setup
-# Clone repository
+1. **Clone repository**
+'''bash
 git clone https://github.com/<username>/LLaMA-Research-Assistant.git
 cd LLaMA-Research-Assistant
+'''
 
-# Create virtual environment
+2. **Create virtual environment**
+'''bash
 python -m venv venv
-venv\Scripts\activate      # Windows
+venv\Scripts\activate     # Windows
+'''
 
-# Install dependencies
+3. **Install dependencies**
+'''bash
 pip install -r requirements.txt
+'''
 
-# Set up environment variables
-set GROQ_API_KEY="your_groq_api_key" 
 
-# Run
+4. **Set up environment variables**
+'''bash
+set GROQ_API_KEY="your_groq_api_key"
+'''
+
+5. **Run**
+'''bash
 python main.py
+'''
