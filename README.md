@@ -19,23 +19,23 @@ cd LLaMA-Research-Assistant
 ```
 
 3. **Create virtual environment**
-'''bash
+```bash
 python -m venv venv
 venv\Scripts\activate     # Windows
-'''
+```
 
 4. **Install dependencies**
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 
 5. **Set up environment variables**
-'''bash
+```bash
 set GROQ_API_KEY="your_groq_api_key"
-'''
+```
 
 6. **Run**
-'''bash
+```bash
 python main.py
-'''
+```
