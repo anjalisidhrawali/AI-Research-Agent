@@ -13,29 +13,29 @@ An autonomous AI research assistant that leverages LLaMA (via Groq) to perform i
 
 ## Setup
 1. **Clone repository**
-'''bash
+```bash
 git clone https://github.com/<username>/LLaMA-Research-Assistant.git
 cd LLaMA-Research-Assistant
-'''
+```
 
-2. **Create virtual environment**
+3. **Create virtual environment**
 '''bash
 python -m venv venv
 venv\Scripts\activate     # Windows
 '''
 
-3. **Install dependencies**
+4. **Install dependencies**
 '''bash
 pip install -r requirements.txt
 '''
 
 
-4. **Set up environment variables**
+5. **Set up environment variables**
 '''bash
 set GROQ_API_KEY="your_groq_api_key"
 '''
 
-5. **Run**
+6. **Run**
 '''bash
 python main.py
 '''
